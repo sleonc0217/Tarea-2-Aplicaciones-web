@@ -1,0 +1,160 @@
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    background: #000;
+}
+header{
+    /*Utilizamos un gradient para el fondo de nuestro header (transparentoso para mostrar la imagen detrás del header)*/
+    background: linear-gradient(109.8deg, rgba(62, 5, 116, 0.751) -5.2%, rgba(41, 14, 151, 0.734) -5.2%, rgba(216, 68, 147, 0.636) 103.3%);
+    height: 520px;
+
+    /*Le damos una forma a los bordes para un mejor estilo*/
+    border-radius: 0% 0% 332% 433% / 0% 0% 118% 113%;
+    
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+    filter: drop-shadow(8px 8px 8px rgb(0, 0, 0)) ;
+    
+    
+}
+.titulo-principal{
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 39%;
+    margin: auto;
+    margin-top: 30px;
+}
+.capa{
+    /*Agregamos la imagen a nuestra capa*/
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/healthy-area-327020.appspot.com/o/businessman-with-light-bulb-in-his-hand.jpg?alt=media&token=86d5754d-0b90-4bd9-b36f-c7823eb881ae);
+    height: 520px;
+
+    /*Jugamos con la forma del radio de nuestro div*/
+    border-radius: 0% 0% 332% 433% / 0% 0% 118% 113%;
+
+    /*Le damos una medida de todo el ancho de la pantalla*/
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+
+    /*Le damos un z-index para que este atrás de nuestro header*/
+    z-index: -1;
+    
+}
+.logo{
+    color: #fff;
+    font-size: 28px;
+}
+header p{
+    color: #fff;
+    font-size: 23px;
+    text-align: left;
+    margin-top: 50px;
+}
+.btn-principal{
+    background: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    border-color:#fff;
+
+    /*le damos una sombra al botón*/
+    box-shadow: 8px 8px 8px rgb(0, 0, 0);
+
+    transition: all 1s;
+}
+.btn-principal:hover{
+
+    background: #fff;
+    color: rgb(62, 5, 116);
+    border: rgb(62, 5, 116);
+    
+}
+ul li{
+    display: inline-block;
+    padding: 0px;
+    padding: 0px 20px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    filter: drop-shadow(8px 8px 8px rgb(0, 0, 0)) ;
+    transition: all 0.7s;
+    font-size: 18px;
+}
+a:hover{
+    color: #000;
+}
+
+.portafolio{
+    color: #000;
+    transition: all 0.7s;
+}
+
+footer{
+    background:rgb(176, 13, 149);
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    position: absolute;
+    top: 1200px;
+}
+.text-footer{
+    text-align: center;
+    padding-top: 15px;
+}
+.portafolio:hover{
+    color: rgb(107, 13, 230);
+}
+
+
+
+section{
+    width: 70%;
+    background: linear-gradient(109.8deg, rgba(62, 5, 116) -5.2%, rgba(41, 14, 151) -5.2%, rgba(216, 68, 147) 103.3%);
+    height: 600px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgb(255, 255, 255);
+}
+
+
+.content-razones{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding-top: 35px;
+    padding-bottom: 90px;
+}
+iframe{
+    margin-left: 5%; 
+    box-shadow: 8px 8px 8px rgb(0, 0, 0);
+    border-radius: 10px;
+}

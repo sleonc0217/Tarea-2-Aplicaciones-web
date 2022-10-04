@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscribirte</title>
+
+    <!--Utilizamos un estilo de fuente de google Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+
+	<!--anclamos el archivo reset de los estilos-->
+	<link rel="stylesheet" href="css/reset.css">
+	<!--anclamos nuestro archivo de estilos-->
+	<link rel="stylesheet" href="css/suscribete.css">
+</head>
+<body>
+    <header>
+        <!--Utilizamos un div que contendrá nuestra imagen desde el archivo css-->
+        <div class="capa"></div>
+    
+    
+        <nav>
+            <h2 class="logo">CodeLabs</h2>
+                            
+                <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="razones.html">Razones</a></li>
+                <li><a href="tecnologias.html">Tecnologías</a></li>
+                <li><a href="suscribete.html">Suscribirte</a></li>
+                <li><a href="ubicaciones.html">Ubicaciones</a></li>
+                <li><a href="portafolio.html">Portafolio</a></li>
+                <li><a href="redesSociales.html">Redes Sociales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+    
+        </nav>
+                    
+    
+    
+        <div class="titulo-principal">
+            <h1>Entérate sobre descuentos!</h1>
+            <p>Y aprovecha de promociones exclusivas para nuestros suscriptores!</p>
+            <button class="btn-principal">HABLEMOS</button>
+        </div>
+    
+    </header>
+    
+    <section>
+        <div class="content-sus">
+            <h2>Suscribete ahora!</h2>
+        </div>
+        
+        <form action="registro.jsp" method="POST">
+            <input type="hidden" name="idCliente" value="123456789"/>
+            
+
+            
+            <label>Correo Electrónico:</label>
+            <input name="email" class="email" type="email" placeholder="example@email.com">
+            
+            
+            <div class="div-btn">
+
+                <input name="enviar" type="submit" class="btn-sus" value="Suscribirme">
+                
+            </div>
+
+
+
+        </form>
+    </section>
+
+    <footer>
+        <h3 class="text-footer">Copyright©CodeLabs. Design By <a class="portafolio" href="https://sebastianleon.netlify.app"/>Sebastián León</a></h3>
+    </footer>
+    
+</body>
+</html>
